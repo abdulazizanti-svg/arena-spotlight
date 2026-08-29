@@ -64,27 +64,28 @@
 }
 
 :root {
-  --radius: 0.375rem;
+  --radius: 0.875rem;
   --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   --font-body: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --background: oklch(0.985 0.006 75);
+  --background: oklch(0.977 0.008 75);
   --foreground: oklch(0.17 0.006 55);
-  --card: oklch(0.998 0.002 75);
+  --card: oklch(0.995 0.004 75);
   --card-foreground: oklch(0.17 0.006 55);
   --popover: oklch(0.998 0.002 75);
   --popover-foreground: oklch(0.17 0.006 55);
-  --primary: oklch(0.61 0.185 38);
+  --primary: oklch(0.63 0.19 38);
+  --primary-shadow: oklch(0.48 0.17 35);
   --primary-foreground: oklch(0.99 0.002 75);
-  --secondary: oklch(0.945 0.008 70);
+  --secondary: oklch(0.94 0.012 70);
   --secondary-foreground: oklch(0.23 0.008 55);
   --muted: oklch(0.95 0.006 70);
   --muted-foreground: oklch(0.52 0.014 55);
-  --accent: oklch(0.955 0.025 50);
+  --accent: oklch(0.95 0.035 48);
   --accent-foreground: oklch(0.42 0.12 38);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.885 0.009 70);
-  --input: oklch(0.86 0.01 70);
+  --border: oklch(0.875 0.012 70);
+  --input: oklch(0.84 0.013 70);
   --ring: oklch(0.61 0.185 38);
   --positive: oklch(0.47 0.11 148);
   --negative: oklch(0.54 0.17 27);
@@ -149,6 +150,7 @@
     font-family: var(--font-body);
     letter-spacing: 0;
     text-rendering: optimizeLegibility;
+    min-width: 320px;
   }
 
   h1, h2, h3, h4 { font-family: var(--font-heading); }
